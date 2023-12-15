@@ -1,0 +1,249 @@
+/* Estilização da página (geral) */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* Estilização dos links (geral) */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilização do header e barra de navegação */
+.header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Estilização do body (geral) */
+.body {
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Estilização da seção "Sobre Mim" */
+.about {
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.text {
+    max-width: 600px; 
+    margin-right: 100px;
+}
+
+.text h2 {
+    color: violet;
+}
+
+.image {
+    text-align: right;
+}
+
+/* Estilização da seção "Meus Projetos" */
+.projects {
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.projects-texto {
+    max-width: 600px;
+    margin-right: 740px;
+}
+
+.projects h2 {
+    color: violet;
+}
+
+.portfolio-1 {
+    background-color: #212529;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.content-portfolio-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: left;
+}
+
+.text-portfolio-1 {
+    max-width: 600px; 
+    margin-right: 100px;
+}
+
+.image-portfolio-1 {
+    text-align: right;
+}
+
+.portfolio-1 h2 {
+    color: violet;
+}
+
+.portfolio-2 {
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+}
+
+.content-portfolio-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right; 
+}
+
+.text-portfolio-2 {
+    max-width: 600px;
+    margin-left: 100px;
+}
+
+.image-portfolio-2 {
+    text-align: left;
+}
+
+.portfolio-3 {
+    background-color: #212529;
+    padding: 20px;
+    color: #fff;
+}
+
+.content-portfolio-3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: left; 
+}
+
+.text-portfolio-3 {
+    max-width: 600px; 
+    margin-right: 100px; 
+}
+
+.image-portfolio-3 {
+    text-align: right; 
+}
+
+/* Estilização dos links da seção "Meus Projetos" */
+.link-saiba-mais {
+    color: black; 
+    background-color: #89fc00;
+    text-decoration: none; 
+    font-weight: none;
+}
+
+.link-saiba-mais:hover, .link-saiba-mais:active {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none; 
+    font-weight: normal;
+}
+
+/* Estilização do formulário */
+.form {
+    background-color: black;
+    padding: 20px;
+    color: #fff   
+}
+
+.form h2 {
+    color: violet;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #000000; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #212529;
+    padding: 20px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+/* Estilização do footer */
+.footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding-top: 45px;
+    height: 75px;
+    font-size: 12px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    display: inline;
+    margin: 0 10px;
+}

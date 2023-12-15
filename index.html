@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Carolina Cozer</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- Menu superior -->
+    <div class="header">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Logo - Carolina Cozer">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projects">Meus Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="goals.html">Metas</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Sobre mim, minhas experiências e idiomas -->
+    <div class="about" id="sobre">
+        <div class="about-content">
+            <div class="text">
+                <h2>Hello, World!</h2>
+                <p>Me chamo Carolina Cozer, sou Development Intern na SAP Brasil e aluna de Análise e Desenvolvimento de
+                    Sistemas na UNINTER.
+                    Estou desenvolvendo minhas habilidades em Web Full Stack, com ênfase em Node.js, React, AWS,
+                    Arquitetura de Software e
+                    Agile.</p>
+                <p>
+                <h2>Minhas Experiências</h2>
+                </p>
+                <p>Atuei na área de redação de conteúdo de 2015 a 2023, tendo passado por múltiplos setores, como redes
+                    sociais, marketing, UX writing, portais de notícias, endomarketing e mídia impressa.</p>
+
+                <p>Na maior parte do tempo, estive escrevendo sobre inovação, startups, negócios e empreendedorismo para
+                    portais de notícias, como EXAME, Consumidor Moderno e Whow!; mas também já produzi conteúdos com
+                    foco em games, comportamento e cultura geek.</p>
+                <p><b>Idiomas:</b> português nativo, inglês avançado e italiano básico (A1).</p>
+            </div>
+            <div class="image">
+                <img src="/images/about-me.png" alt="Minha foto">
+            </div>
+        </div>
+    </div>
+
+    <!-- Aqui começa o meu portfólio -->
+    <div class="projects" id="projects">
+        <div class="projects-content" id="projects-content">
+            <div class="projects-texto" id="projects-texto">
+                <br>
+                <p>
+                <h2>Meus projetos</h2>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primeiro Projeto: API de Microsserviços -->
+    <div class="portfolio-1" id="portfolio-1">
+        <div class="content-portfolio-1">
+            <div class="text-portfolio-1">
+                <h4>API de Microsserviços</h4>
+                <p>Projeto desenvolvido na aula de Programação Web III no curso de Web Full Stack da Ada Tech.
+                    Aprendemos a criar uma API para um colégio e inserir microsserviços, como cadastro de alunos e
+                    funcionários e eventos escolares. A API utiliza Node.js, Express, TypeScript e SQLite para realizar
+                    suas operações.</p>
+                <p><br><a href="https://github.com/carolcozer/microsservico-eventos" target="_blank"
+                        class="link-saiba-mais">Saiba
+                        mais</a></p>
+            </div>
+            <div class="image-portfolio-1">
+                <img src="/images/api.png" alt="API de microsserviços">
+            </div>
+        </div>
+    </div>
+
+    <!-- Segundo Projeto: Sistema para Bike Shop -->
+    <div class="portfolio-2" id="portfolio-2">
+        <div class="content-portfolio-2">
+            <div class="image-portfolio-2">
+                <img src="/images/bikeshop.png" alt="Loja de Bicicletas">
+            </div>
+            <div class="text-portfolio-2">
+                <h4>Sistema para Bike Shop</h4>
+                <p>Programa criado para a disciplina de Lógica de Programação do curso de Análise e Desenvolvimento de
+                    Sistemas. A atividade consistia no desenvolvimento de um pequeno sistema de uma loja de bicicletas,
+                    em que fosse possível inserir, consultar e deletar itens em um menu. A linguagem de programação
+                    utilizada foi Python.</p>
+                <p><br><a href="https://github.com/carolcozer/bikeshop" target="_blank" class="link-saiba-mais">Saiba
+                        mais</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terceiro Projeto: Sistema de Cálculo Logístico -->
+    <div class="portfolio-3" id="portfolio-3">
+        <div class="content-portfolio-3">
+            <div class="text-portfolio-3">
+                <h4>Sistema de Cálculo Logístico</h4>
+                <p>Elaboração de um programa Python para a disciplina de Lógica de Programação do curso de Análise e
+                    Desenvolvimento de Sistemas. Foi criado um sistema capaz de calcular o valor de envio de objetos por
+                    uma transportadora com base em altura, comprimento, largura, volume, peso e rotas de entrega.</p>
+                <p><br><a href="https://github.com/carolcozer/logistica" target="_blank" class="link-saiba-mais">Saiba
+                        mais</a></p>
+            </div>
+            <div class="image-portfolio-3">
+                <img src="/images/logistica.png" alt="Serviço de Logística">
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulário de contato -->
+    <div class="form" id="contato">
+        <h2>Quer falar comigo? Me escreva!</h2>
+        <div class="container">
+            <form id="meu-formulario" method="post" action="index.html">
+                <label for="name">Seu nome</label>
+                <input type="text" id="name" name="first-name" placeholder="Seu nome..." required>
+
+                <label for="email">Seu e-mail</label>
+                <input type="text" id="email" name="email" placeholder="Seu e-mail..." required>
+
+                <label for="subject">Assunto</label>
+                <textarea id="subject" name="subject" placeholder="Escreva a sua mensagem..."
+                    style="height:50px" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer com minhas redes -->
+    <div class="footer">
+        <ul>
+            <li><a href="https://www.facebook.com/carolcarolcozer/" target="_blank"><img src="/images/facebook.png"
+                        width="48px" height="48px" alt="Facebook"></a></li>
+            <li><a href="https://github.com/carolcozer/" target="_blank"><img src="/images/github.png" width="48px"
+                        height="48px" alt="GitHub"></a></li>
+            <li><a href="https://www.linkedin.com/in/carolinacozer/" target="_blank"><img src="/images/linkedin.png"
+                        width="48px" height="48px" alt="LinkedIn"></a></li>
+            <br>
+            <p>&copy; 2023 | Site desenvolvido por Carolina Cozer</p>
+        </ul>
+    </div>
+</body>
+</html>
