@@ -67,3 +67,9 @@ h1 {
     text-decoration: none; 
     font-weight: normal;
 }
+
+#apresentacao ul li h4 { 
+  margin: 0px; 
+  padding: 5px; 
+  height: 55px; 
+}
